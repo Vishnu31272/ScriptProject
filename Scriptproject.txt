@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"/>
+    
+      <title>Frontend Mentor | Recipe page</title>
+<style>
+    *{
+    padding: 0;
+    margin: 0;
+    }
+    .bg {
+        background-color: antiquewhite;
+        
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 10vh;
+      }
+      .wbg {
+        margin: 100px;
+        min-height: 1500px;
+        max-height: 1800px;
+        width: 700px;
+        background-color: white;
+        border-radius: 5%;
+      }
+      .image {
+        margin-top: 20px;
+        margin-left: 50px;
+      }
+      .heading {
+        padding: 10px;
+        margin-left: 50px;
+      }
+      .para1 {
+        margin-left: 50px;
+        padding: 10px;
+      }
+      .pinkcontainer {
+        background-color: rgb(247, 240, 247);
+        height: 160px;
+        width: 600px;
+        margin-left: 50px;
+        border-radius: 13px;
+      }
+      .heading3 {
+        color: darkorchid;
+        padding: 20px;
+      }
+      .list {
+        padding-left: 30px;
+        padding-bottom: 10px;
+      }
+      .head4{
+        padding-left: 50px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        color: rgba(128, 0, 0, 0.829);
+      }
+      .list1{
+        padding-left: 50px;
+        padding-top: 10px;
+       
+      }
+      .head7{
+        padding-left: 50px;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        color: rgba(128, 0, 0, 0.829);
+      }
+      .list2{
+        
+        padding-top: 10px;
+      }
+      .list7{
+        padding-left: 60px;
+        
+       
+      }
+      .head8{
+        padding-left: 50px;
+        padding-top: 40px;
+      
+        color: rgba(128, 0, 0, 0.829);
+      }
+      .para2{
+        padding-left: 50px;
+        padding-top: 20px;
+      }
+      
+</style>
+</head>
+    <body class="bg">
+        <div class="container">
+        <div class="wbg">
+            <div class="image">
+    <img 
+    src="pic.png.png"
+    style="width: 600px; height: 300px"/>
+</div>
+    <br>
+    <div class="heading">
+    <h1>Simple Omelette Recipe</h1>
+</div>
+<div class="para1">
+    <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs
+        <br>cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+    </div>
+    <div class="pinkcontainer">
+        <h3 class="heading3">Preparation time</h3>
+        <li class="list"><strong>Total</strong>:Approximately 10 minutes</li>
+        <li class="list"><strong>Preparation</strong>: 5 minutes</li>
+        <li class="list"><strong>Cooking</strong>: 5 minutes</li>
+      </div>
+      <h2 class="head4">Ingredients</h2>
+      <div>
+      <li class="list1">2-3 large eggs</li>
+       <li class="list1"> Salt, to taste</li>
+       <li class="list1">   Pepper, to taste</li>
+       <li class="list1">  1 tablespoon of butter or oil</li>
+       <li class="list1">  Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+      </div>
+      <h2 class="head7">Instructions</h2>
+      <ol class="list7">
+        
+      <li class="list2"><b>Beat the eggs</b>: In a bowl, beat the eggs with a pinch of salt and pepper until they are<br>
+        well mixed. You can add a tablespoon of water or milk for a fluffier texture.</li>
+        <li class="list2"><b>Heat the pan</b>: Place a non-stick frying pan over medium heat and add butter or oil.</li>
+        <li class="list2"><b>Cook the omelette</b>: Once the butter is melted and bubbling, pour in the eggs. Tilt the<br>
+        pan to ensure the eggs evenly coat the surface.</li>
+        <li class="list2"> <b>Add fillings (optional)</b>: When the eggs begin to set at the edges but are still slightly<br>
+        runny in the middle, sprinkle your chosen fillings over one half of the omelette.</li>
+        <li class="list2"><b>Fold and serve</b>: As the omelette continues to cook, carefully lift one edge and fold it<br>
+        over the fillings. Let it cook for another minute, then slide it onto a plate.</li>
+        <li class="list2"><b>Enjoy</b>: Serve hot, with additional salt and pepper if needed.</li>
+      </ol>              
+       <div class="head8">
+        <h2>Nutritions</h2>
+       </div>
+       <p class="para2">
+        The table below shows nutritional values per serving without the additional fillings.
+       </p>
+    </div>
+    
+    </body>
+    
+</html>
